@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: auto;
+    text-align: center;
+    background-image: url('bank\ image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+h2 {
+    font-size: x-large;
+    margin-top: 10px;
+    color: aliceblue;
+    
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+input [type="text"] {
+    font-size: xx-large;
+    border: 10px;
+    border-color: gold;
+
+}
+
+.mybtn {
+    color: gold;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    width: 100px;
+    background-color: black;
+    border-radius: 1.5rem;
+}
+ .mybtn:hover {
+    background-color: royalblue;
+    color: rgb(82, 82, 74);
+    box-shadow: rgba(32, 31, 31, 0.35) 0px 7px 10px;
+    font-weight: 900;
+ }
+.balance {
+    font-size: 12px;
+    margin-top: 10px;
+}
